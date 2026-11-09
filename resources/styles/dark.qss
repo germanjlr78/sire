@@ -1,0 +1,107 @@
+* {
+    font-family: "Segoe UI", "Arial", sans-serif;
+    font-size: 10pt;
+}
+QMainWindow, QWidget {
+    background: #0d1422;
+    color: #e7edf7;
+}
+#Sidebar {
+    background: #111d30;
+    border-right: 1px solid #24334b;
+}
+#Brand {
+    color: #f5f8ff;
+    font-size: 30pt;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+#BrandSubtitle, #SectionLabel, #Eyebrow {
+    color: #7f95b4;
+    font-size: 8pt;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+#SectionLabel { margin-top: 8px; margin-bottom: 5px; }
+#NavButton {
+    text-align: left;
+    color: #b7c5d9;
+    background: transparent;
+    border: 0;
+    border-radius: 8px;
+    padding: 11px 12px;
+    font-size: 9.5pt;
+}
+#NavButton:hover { background: #1b2b43; color: #ffffff; }
+#NavButton:checked {
+    background: #1d4772;
+    color: #ffffff;
+    font-weight: 700;
+    border-left: 3px solid #55b7f3;
+}
+#ExitButton {
+    text-align: left;
+    color: #ffc2c2;
+    background: #38202a;
+    border: 1px solid #693344;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 9.5pt;
+}
+#ExitButton:hover { background: #542a38; color: #ffffff; }
+#SidebarFooter {
+    color: #7185a1;
+    border-top: 1px solid #26364e;
+    padding-top: 14px;
+    font-size: 8pt;
+}
+#PageTitle {
+    color: #f4f7fc;
+    font-size: 25pt;
+    font-weight: 700;
+}
+#MutedText { color: #91a2ba; font-size: 10pt; }
+#SmallMuted { color: #7488a4; font-size: 8.5pt; }
+#ReadyBadge {
+    color: #7be0b0;
+    background: #14382f;
+    border: 1px solid #23614d;
+    border-radius: 14px;
+    padding: 8px 12px;
+    font-size: 8pt;
+    font-weight: 700;
+}
+#MetricCard, #Panel {
+    background: #141f31;
+    border: 1px solid #263750;
+    border-radius: 12px;
+}
+#MetricNumber { color: #5bbcf2; font-size: 9pt; font-weight: 700; }
+#MetricValue { color: #f4f7fc; font-size: 23pt; font-weight: 700; }
+#PanelHeading { color: #dce7f5; font-size: 10pt; font-weight: 700; letter-spacing: .5px; }
+#BodyText { color: #aebdd1; font-size: 10pt; line-height: 1.5; }
+#ActionButton {
+    color: #d7eaff;
+    background: #1b304b;
+    border: 1px solid #315477;
+    border-radius: 8px;
+    text-align: left;
+    padding: 12px;
+}
+#ActionButton:hover { background: #23456a; }
+#RoadmapTag {
+    color: #9db8d8;
+    background: #1b2b40;
+    border-radius: 5px;
+    padding: 5px 7px;
+    font-size: 7pt;
+    font-weight: 700;
+}
+#Disclaimer { color: #7388a5; font-size: 8pt; }
+#PlaceholderIcon { color: #4ba9e5; font-size: 42pt; padding: 10px; }
+QStatusBar {
+    background: #101a2a;
+    color: #8194ae;
+    border-top: 1px solid #263750;
+    font-size: 8pt;
+}
